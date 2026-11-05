@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 Amol
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+This licence covers the code in tools/ and examples/ only.
+
+The images are NOT relicensed by this repository. Every image keeps the licence
+declared by its original source, recorded per record in data/*.jsonl:
+
+  * Wikimedia Commons files  -> the licence named in each record's "license"
+    field (e.g. CC0, Public domain, CC BY 2.0/3.0/4.0, CC BY-SA 2.0/3.0/4.0),
+    with the author in "attribution". Check the linked source_page before reuse.
+  * Google Quick, Draw!      -> CC BY 4.0 (googlecreativelab/quickdraw-dataset).
+
+Attribution and share-alike obligations stay with whoever redistributes the
+images or a derivative of them.
