@@ -1,8 +1,11 @@
 # Face / Object / Sketch — 16,000 images @ 512×512
 
+![repo](docs/repo-card.png)
+
 ![preview](docs/preview-grid.png)
 
-*Every tile above is a real record from `data/dataset.jsonl` — 2 rows of faces, 2 of objects, 2 of sketches.*
+*Every tile in the grid is a real record from `data/dataset.jsonl` — 2 rows of faces, 2 of objects, 2 of sketches.
+The card at the top is GitHub's own render of this repository (`docs/repo-card.png`).*
 
 A small, fully attributed image dataset for **face vs. object classification**, **sketch recognition**
 and **captioning**, built entirely from openly licensed sources (no generated images).
