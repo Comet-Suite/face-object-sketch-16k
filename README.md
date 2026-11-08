@@ -14,10 +14,10 @@ and **captioning**, built entirely from openly licensed sources (no generated im
 |---|---|
 | **Images** | 16,000, all **512 × 512** JPEG (q88, progressive, ~41 KB mean) |
 | **Photographs** | 8,000 = **4,000 faces** (2,000 female · 2,000 male) + **4,000 objects** |
-| **Sketches** | 8,000 = 694 scanned traditional drawings + 7,306 rendered line drawings |
+| **Sketches** | 8,000 pencil/charcoal **drawings on paper** — 2,528 portrait drawings + 5,469 other drawings (museums + Commons). No doodles. |
 | **Manifests** | JSONL, one record per image, with provenance, licence + attribution |
 | **Packaging** | 12 tar shards (each < 100 MB) + `tools/unpack.sh` |
-| **Verified** | 16,000/16,000 images at 512×512, SHA-256 match, **0 duplicates, 0 broken files** |
+| **Verified** | 15,997/15,997 images at 512×512, SHA-256 match, **0 duplicates, 0 broken files** |
 
 ---
 
@@ -63,8 +63,8 @@ counts, licences and integrity checks.
 |---|---|---|
 | `face` | 4,000 | portrait photographs — 2,002 female, 1,998 male (one duplicate-prone slot was swapped for a same-gender image) |
 | `object` | 4,000 | single-subject photographs of everyday objects — watches, cutlery, tools, cameras, bicycles, books, toys, furniture, kitchenware |
-| `sketch` | 8,000 | 7,306 simple line drawings + 694 traditional pen/pencil/charcoal drawings (with paper texture and shading) |
-| **total** | **16,000** | 8,000 photographs · 8,000 sketches |
+| `sketch` | 7,997 | graphite/charcoal/pencil drawings on paper — **2,528 with a detected face (portraits)** + 5,469 other subjects (figures, landscapes, objects, animals) |
+| **total** | **15,997** | 8,000 photographs · 7,997 sketches |
 
 Every class is exactly balanced as requested; the sketch class is deliberately split between two
 visually different sketch styles (`sketch_style` field), which makes it useful for style-robust
